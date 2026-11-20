@@ -1,0 +1,162 @@
+[
+  {
+    "id": "Q01",
+    "question": "How many days after account cancellation is content permanently deleted from servers and from backups?",
+    "expected_answer": "Content is permanently deleted from servers 30 days after cancellation and from backups within 60 days.",
+    "expected_keywords": ["30 days", "60 days"],
+    "expected_source": "01_refund_and_cancellation_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q02",
+    "question": "After how many days of inactivity can 37signals cancel a free account?",
+    "expected_answer": "Free accounts may be canceled after 365 days of inactivity.",
+    "expected_keywords": ["365"],
+    "expected_source": "01_refund_and_cancellation_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q03",
+    "question": "How long after an expired trial without upgrading can a HEY trial account vs other service trial accounts be canceled?",
+    "expected_answer": "HEY trial accounts are canceled 60 days after trial expiration, while other services are canceled 30 days after trial expiration.",
+    "expected_keywords": ["60 days", "30 days"],
+    "expected_source": "01_refund_and_cancellation_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q04",
+    "question": "After how many days are frozen accounts canceled due to billing failures?",
+    "expected_answer": "Frozen accounts are canceled 180 days after being frozen due to billing failures.",
+    "expected_keywords": ["180"],
+    "expected_source": "01_refund_and_cancellation_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q05",
+    "question": "What happens if an account owner cancels a paid HEY account before the paid period expires?",
+    "expected_answer": "They can continue using the HEY account until the paid period expires, or choose to close the account earlier.",
+    "expected_keywords": ["paid period", "expires"],
+    "expected_source": "01_refund_and_cancellation_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q06",
+    "question": "What monthly uptime percentage does the Basecamp Big Service Level Agreement guarantee?",
+    "expected_answer": "The Basecamp Big SLA guarantees 99.99% monthly uptime.",
+    "expected_keywords": ["99.99%"],
+    "expected_source": "02_security_and_sla_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q07",
+    "question": "What SLA credit is issued for an outage exceeding 5 minutes on Basecamp Big?",
+    "expected_answer": "For any day where an outage exceeds 5 minutes, the account receives a 10x credit for a full hour equal to the hourly rate paid.",
+    "expected_keywords": ["10x", "5 minutes"],
+    "expected_source": "02_security_and_sla_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q08",
+    "question": "How are database backups encrypted and how is data in transit protected?",
+    "expected_answer": "Data in transit is encrypted using HTTPS, and database backups are encrypted using GPG.",
+    "expected_keywords": ["HTTPS", "GPG"],
+    "expected_source": "02_security_and_sla_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q09",
+    "question": "Since what year has 37signals been in business?",
+    "expected_answer": "37signals has been in business since 1999.",
+    "expected_keywords": ["1999"],
+    "expected_source": "02_security_and_sla_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q10",
+    "question": "Within how many days is trashed content purged from all systems and logs?",
+    "expected_answer": "Trashed content is kept in an accessible trash can for about 25 days and purged from all systems and logs within 90 days.",
+    "expected_keywords": ["90 days"],
+    "expected_source": "03_privacy_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q11",
+    "question": "What email address should users contact for questions about privacy rights or their personal data?",
+    "expected_answer": "Users can email privacy@37signals.com.",
+    "expected_keywords": ["privacy@37signals.com"],
+    "expected_source": "03_privacy_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q12",
+    "question": "What portion of a credit card number is stored in the billing payment transaction record?",
+    "expected_answer": "Only the last 4 digits of the credit card number are stored in the payment transaction record.",
+    "expected_keywords": ["last 4 digits"],
+    "expected_source": "03_privacy_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q13",
+    "question": "Under which GDPR article are occasional ad hoc EU personal data transfers conducted?",
+    "expected_answer": "Occasional ad hoc transfers are conducted under the Article 49(1)(b) derogation under GDPR.",
+    "expected_keywords": ["49(1)(b)"],
+    "expected_source": "03_privacy_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q14",
+    "question": "Why is HEY not subject to sales tax in the United States?",
+    "expected_answer": "HEY is not subject to US sales tax because email service falls under Internet access under the Internet Tax Freedom Act (ITFA).",
+    "expected_keywords": ["Internet Tax Freedom Act"],
+    "expected_source": "04_taxes_and_acceptable_use_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q15",
+    "question": "Where should abuse or restricted use policy violations be reported?",
+    "expected_answer": "Violations can be reported by emailing report@37signals.com.",
+    "expected_keywords": ["report@37signals.com"],
+    "expected_source": "04_taxes_and_acceptable_use_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q16",
+    "question": "Is a US federal IRS tax exemption letter sufficient to claim state sales tax exemption?",
+    "expected_answer": "No, state-specific tax exemption documentation is required because not all US federal exemptions are recognized by each state.",
+    "expected_keywords": ["state-specific"],
+    "expected_source": "04_taxes_and_acceptable_use_policy.pdf",
+    "answerable": true
+  },
+  {
+    "id": "Q17",
+    "question": "How many days of paid maternity leave does the company provide to full-time employees?",
+    "expected_answer": "I could not find this information in the provided documents.",
+    "expected_keywords": [],
+    "expected_source": "",
+    "answerable": false
+  },
+  {
+    "id": "Q18",
+    "question": "What is the employee 401k employer matching percentage?",
+    "expected_answer": "I could not find this information in the provided documents.",
+    "expected_keywords": [],
+    "expected_source": "",
+    "answerable": false
+  },
+  {
+    "id": "Q19",
+    "question": "What is the minimum GPA required for university internship applicants?",
+    "expected_answer": "I could not find this information in the provided documents.",
+    "expected_keywords": [],
+    "expected_source": "",
+    "answerable": false
+  },
+  {
+    "id": "Q20",
+    "question": "How many casual leaves per calendar year are allocated to remote engineers?",
+    "expected_answer": "I could not find this information in the provided documents.",
+    "expected_keywords": [],
+    "expected_source": "",
+    "answerable": false
+  }
+]
